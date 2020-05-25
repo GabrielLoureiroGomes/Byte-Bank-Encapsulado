@@ -1,8 +1,7 @@
 public class TestaGetSet {
 
     public static void main(String[] args) {
-        Conta conta = new Conta();
-        conta.setNumero(1500);
+        Conta conta = new Conta(2, 1500);
         System.out.println(conta.getNumero());
 
         Cliente gabriel = new Cliente();
